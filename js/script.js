@@ -16,11 +16,11 @@ function numberProduct() {
     let userNumSecond = parseFloat(document.getElementById('secondNumber').value)
 
     for (let counter = 0; counter < userNumSecond; counter++) {
-        if(counter < userNumSecond) {
+        if(counter < userNumSecond -1) {
             numbers =  numbers + userNumFirst + "+"; 
         }
         else {
-            numbers = numbers + counter;
+            numbers = numbers + counter + "+";
         }
         sum = sum + userNumFirst; // Was once counter
 }
